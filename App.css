@@ -1,0 +1,106 @@
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    /* font-size: 62.5%; */
+    /* font-family: sans-serif; */
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+main {
+    display: block;
+}
+
+body {
+    color: #494949;
+    background: #FFFFFF;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: .01rem;
+    line-height: 1.5;
+}
+
+div {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    margin-top: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #B0D0E8;
+}
+
+.icon, input.todo-checkbox {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    width: 17.5px;
+    height: 17.5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance:none;
+    outline: 1px solid lightgray;
+    box-shadow: none;
+}
+
+.groups-link {
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.content {
+    padding: 75px 16px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.todos-header-container, .todo {
+    border-bottom: 1px solid lightgray;
+}
+
+.todos-header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todos {
+    text-align: left;
+}
+
+.todo {
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    position: relative;
+    padding: 14px;
+    font-weight: 525;
+}
+
+.card-details-wrapper {
+    margin-left: 30px;
+}
+
+.group-status {
+    font-size: 18px;
+    font-weight: 300;
+    color: #9B9B9B;
+}
